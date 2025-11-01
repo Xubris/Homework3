@@ -26,10 +26,10 @@ public class Main {
         byte LydmilaPavlovna=23;
         byte AnnaSergeevna=27;
         byte EkaterinaAndreevna=30;
-        byte AllStudents= (byte) (EkaterinaAndreevna+LydmilaPavlovna+AnnaSergeevna);
-        short Paper=480;
-        byte PaperPerPerson=(byte) (Paper/AllStudents);
-        System.out.println("На каждого ученика расчитанно " +PaperPerPerson+ " листов бумаги.");
+        byte allStudents= (byte) (EkaterinaAndreevna+LydmilaPavlovna+AnnaSergeevna);
+        short paper=480;
+        byte paperPerPerson=(byte) (paper/allStudents);
+        System.out.println("На каждого ученика расчитанно " +paperPerPerson+ " листов бумаги.");
         //Задание№4
         byte bottlesInTwoMinutes=16;
         byte  bottlesInOneMinutes=(byte)(bottlesInTwoMinutes/2);
@@ -42,21 +42,21 @@ public class Main {
         int bottlesInMonth=bottlesInDays*31;
         System.out.println("За месяц машина произвела "+bottlesInMonth+" штук бутылок." );
         //Задание№5
-        byte Paint=120;
+        byte paint=120;
         byte whiteClass=2;
         byte brownClass=4;
-        byte Class=(byte)(Paint/(whiteClass+brownClass));
-        byte classWdhiteAll=(byte) (Class*whiteClass);
-        byte classBrownAll=(byte) (Class*brownClass);
-        System.out.println("В школе, где "+Class+" классов, нужно "+classWdhiteAll+" банок белой краски и "+classBrownAll+" банок коричневой краски.");
+        byte cclass=(byte)(paint/(whiteClass+brownClass));
+        byte classWdhiteAll=(byte) (cclass*whiteClass);
+        byte classBrownAll=(byte) (cclass*brownClass);
+        System.out.println("В школе, где "+cclass+" классов, нужно "+classWdhiteAll+" банок белой краски и "+classBrownAll+" банок коричневой краски.");
         //Задание№6
-        byte Bananas=5;
+        byte bananas=5;
         byte gramInABanana=80;
-        short fiveGramBananas=(short)(gramInABanana*Bananas);
+        short fiveGramBananas=(short)(gramInABanana*bananas);
         short milkMl=200;
-        byte Milk=(byte)(milkMl/100);
+        byte milk=(byte)(milkMl/100);
         byte milkGram=105;
-        short milkGramAll=(short) (Milk*milkGram);
+        short milkGramAll=(short) (milk*milkGram);
         byte iceCream=2;
         short iceCreamGram=100;
         short iceCreamGramAll=(short)(iceCreamGram*iceCream);
