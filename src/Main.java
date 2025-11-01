@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         //задание №1
-        byte Value1=30;
-        System.out.println("Значение переменной Value1 с типом byte = "+Value1);
-        short Value2=25789;
-        System.out.println("Значение переменной Value2 с типом short = "+Value2);
-        int Value3=100000;
-        System.out.println("Значение переменной Value3 с типом int = "+Value3);
-        long Value4=1234567890L;
-        System.out.println("Значение переменной Value4 с типом long = "+Value4);
-        float Value5=3.4E+32f;
-        System.out.println("Значение переменной Value5 с типом float = "+Value5);
-        double Value6=1.7E+300;
-        System.out.println("Значение переменной Value6 с типом double = "+Value6);
+        byte value1=30;
+        System.out.println("Значение переменной Value1 с типом byte = "+value1);
+        short value2=25789;
+        System.out.println("Значение переменной Value2 с типом short = "+value2);
+        int value3=100000;
+        System.out.println("Значение переменной Value3 с типом int = "+value3);
+        long value4=1234567890L;
+        System.out.println("Значение переменной Value4 с типом long = "+value4);
+        float value5=3.4E+32f;
+        System.out.println("Значение переменной Value5 с типом float = "+value5);
+        double value6=1.7E+300;
+        System.out.println("Значение переменной Value6 с типом double = "+value6);
 
         //Задание №2
         float a =27.12f;
@@ -23,10 +23,10 @@ public class Main {
         short f = 27897;
         byte g = 67;
         //Задание№3
-        byte LydmilaPavlovna=23;
-        byte AnnaSergeevna=27;
-        byte EkaterinaAndreevna=30;
-        byte allStudents= (byte) (EkaterinaAndreevna+LydmilaPavlovna+AnnaSergeevna);
+        byte lydmilaPavlovna=23;
+        byte annaSergeevna=27;
+        byte ekaterinaAndreevna=30;
+        byte allStudents= (byte) (ekaterinaAndreevna+lydmilaPavlovna+annaSergeevna);
         short paper=480;
         byte paperPerPerson=(byte) (paper/allStudents);
         System.out.println("На каждого ученика расчитанно " +paperPerPerson+ " листов бумаги.");
